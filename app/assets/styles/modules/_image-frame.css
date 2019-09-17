@@ -1,6 +1,5 @@
 .image-frame {
     position: relative;
-    top: -210px;
     opacity: 0;
     width: 82%;
     margin-left: auto;
@@ -8,4 +7,16 @@
     height: 36vh;
     cursor: pointer;
     background-color: yellow;
+
+    &--1{
+        top: -210px;
+    }
+
+    &--2{
+        top: -141px;
+    }
+
+    &--3{
+        top: -72px;
+    }
 }

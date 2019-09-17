@@ -11,3 +11,7 @@ new RevealOnScroll($(".testimonial"), "60%");
 var stickyHeader = new StickyHeader();
 var modal = new Modal();
 */
+
+import ProjectLink from './modules/ProjectLink';
+
+var projectLink = new ProjectLink();

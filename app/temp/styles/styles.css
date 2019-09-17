@@ -472,7 +472,6 @@ html {
 
 .image-frame {
     position: relative;
-    top: -210px;
     opacity: 0;
     width: 82%;
     margin-left: auto;
@@ -480,6 +479,18 @@ html {
     height: 36vh;
     cursor: pointer;
     background-color: yellow;
+}
+
+.image-frame--1{
+  top: -210px;
+}
+
+.image-frame--2{
+  top: -141px;
+}
+
+.image-frame--3{
+  top: -72px;
 }
 
 @keyframes  intro-video{
