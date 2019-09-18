@@ -23,7 +23,7 @@ class ProjectLink {
     }
 
     project3(){
-        window.open("");
+        window.open("https://giaduc777.github.io/Tribute-page/");
     }
 }
 
