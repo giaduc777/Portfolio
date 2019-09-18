@@ -116,7 +116,7 @@
 	    }, {
 	        key: "project3",
 	        value: function project3() {
-	            window.open("");
+	            window.open("https://giaduc777.github.io/Tribute-page/");
 	        }
 	    }]);
 
