@@ -93,6 +93,7 @@
 	        this.image1 = (0, _jquery2.default)(".image-frame--1");
 	        this.image2 = (0, _jquery2.default)(".image-frame--2");
 	        this.image3 = (0, _jquery2.default)(".image-frame--3");
+	        this.image4 = (0, _jquery2.default)(".image-frame--4");
 	        this.events();
 	    }
 
@@ -102,6 +103,7 @@
 	            this.image1.click(this.project1);
 	            this.image2.click(this.project2);
 	            this.image3.click(this.project3);
+	            this.image4.click(this.project4);
 	        }
 	    }, {
 	        key: "project1",
@@ -117,6 +119,11 @@
 	        key: "project3",
 	        value: function project3() {
 	            window.open("https://giaduc777.github.io/Tribute-page/");
+	        }
+	    }, {
+	        key: "project4",
+	        value: function project4() {
+	            window.open("https://giaduc777.github.io/Technical-doc/");
 	        }
 	    }]);
 
