@@ -13,13 +13,33 @@
         height: 40vh;
         background-color: rgb(148, 128, 128);
     }
+
+    &__background-image1 {
+        width: 100%;
+        height: 80vh;
+        position: absolute;
+        z-index: 13;
+        top: 0vh;
+        animation-name: intro-pic-1;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    
+    
    
     &__paragraph {
         width: 100%;
+        height: 15rem;
         position: absolute;
+        z-index: 14;
         top: -55px;
         margin-left: auto;
         margin-right: auto;
+        background-image: url("../../../assets/images/20181210_001519.jpg");
+        background-size: cover;
         animation-name: intro-video;
         animation-duration: 10s;
         animation-fill-mode: both;

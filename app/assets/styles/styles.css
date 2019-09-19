@@ -6,10 +6,9 @@
 @import "./modules/_header";
 @import "./modules/_image-frame";
 @import "./modules/_intro-video";
-@import "./modules/_mobile-button";
-@import "./modules/_mobile-menu";
 @import "./modules/_section-intro";
 @import "./modules/_section-portfolio";
 
 @import "./modules/_location";
+@import "./modules/_intro-pic-1";
 
