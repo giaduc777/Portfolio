@@ -1,0 +1,8 @@
+.location {
+    position: relative;
+    opacity: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: blue;
+    top: -830px;
+}

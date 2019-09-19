@@ -94,6 +94,7 @@
 	        this.image2 = (0, _jquery2.default)(".image-frame--2");
 	        this.image3 = (0, _jquery2.default)(".image-frame--3");
 	        this.image4 = (0, _jquery2.default)(".image-frame--4");
+	        this.work = (0, _jquery2.default)(".header__navigation__block__l2");
 	        this.events();
 	    }
 

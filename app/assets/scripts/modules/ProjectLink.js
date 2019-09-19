@@ -6,6 +6,7 @@ class ProjectLink {
         this.image2 = $(".image-frame--2");
         this.image3 = $(".image-frame--3");
         this.image4 = $(".image-frame--4");
+        this.work = $(".header__navigation__block__l2");
         this.events();
     }
     
