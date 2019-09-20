@@ -5,10 +5,13 @@
 
 @import "./modules/_header";
 @import "./modules/_image-frame";
-@import "./modules/_intro-video";
+@import "./modules/_intro-animated-p1";
+@import "./modules/_intro-animated-p2";
 @import "./modules/_location";
 @import "./modules/_section-intro";
 @import "./modules/_section-portfolio";
 
 @import "./modules/_background-image-2";
+
+
 

@@ -1,6 +1,6 @@
 .image-frame {
     position: relative;
-    opacity: 1;
+    opacity: 0;
     width: 82%;
     margin-left: auto;
     margin-right: auto;
@@ -9,18 +9,18 @@
     background-color: yellow;
 
     &--1{
-        top: -560px;
+        top: -600px;
     }
 
     &--2{
-        top: -490px;
+        top: -528px;
     }
 
     &--3{
-        top: -420px;
+        top: -460px;
     }
 
     &--4{
-        top: -350px;
+        top: -388px;
     }
 }
