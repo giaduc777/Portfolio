@@ -6,9 +6,9 @@
 @import "./modules/_header";
 @import "./modules/_image-frame";
 @import "./modules/_intro-video";
+@import "./modules/_location";
 @import "./modules/_section-intro";
 @import "./modules/_section-portfolio";
 
-@import "./modules/_location";
-@import "./modules/_intro-pic-1";
+@import "./modules/_background-image-2";
 

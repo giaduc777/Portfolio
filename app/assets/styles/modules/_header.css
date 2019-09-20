@@ -1,13 +1,19 @@
 .header {
 
+
     &__navigation {
         position: fixed;
-        z-index: 11;
+        z-index: 20;
         top: 0;
         left: 0;
         width: 100%;
         height: 8vh;
         background-color: brown;
+
+        animation-name: header-nav;
+        animation-duration: 10s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
 
         &__block {
             display: flex;
