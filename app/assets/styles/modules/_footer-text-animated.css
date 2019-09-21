@@ -1,0 +1,57 @@
+@keyframes  footer-text-animated{
+    0% {
+        font-size: 2.5rem;
+    }
+    2% {
+       
+        font-size: 2.2rem;
+    }
+    4% {
+        
+        font-size: 2rem;
+    }
+    6% {
+        
+        font-size: 1.8rem;
+    }
+    8% {
+        
+        font-size: 1.6rem;
+    }
+    10% {
+       
+        font-size: 1.4rem;
+    }
+    12% {
+       
+        font-size: 1.2rem;
+    }
+    14% {
+        
+        font-size: 1rem;
+    }
+    16% {
+       
+        font-size: .8rem;
+    }
+    18% {
+        
+        font-size: .6rem;
+    }
+    20% {
+        
+        font-size: .4rem;
+    }
+    22% {
+        
+        font-size: .2rem;
+    }
+    24% {
+        
+        font-size: .1rem;
+    }
+    26% {
+        
+        font-size: .05rem;
+    }
+}

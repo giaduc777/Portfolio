@@ -20,9 +20,7 @@
         top: -7vh;
         animation-name: intro-image-2;
         animation-duration: 10s;
-        
         animation-timing-function: linear;
-        
     }
 
     &__bart-screen {

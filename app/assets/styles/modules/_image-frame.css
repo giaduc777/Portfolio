@@ -9,18 +9,18 @@
     background-color: yellow;
 
     &--1{
-        top: -600px;
+        top: -384px;
     }
 
     &--2{
-        top: -528px;
+        top: -315px;
     }
 
     &--3{
-        top: -460px;
+        top: -244px;
     }
 
     &--4{
-        top: -388px;
+        top: -173px;
     }
 }

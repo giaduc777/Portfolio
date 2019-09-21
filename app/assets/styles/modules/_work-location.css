@@ -1,0 +1,7 @@
+.work-location {
+    position: relative;
+    opacity: 0;
+    height: 5vh;
+    width: 100%;
+    top: -575px;
+}
