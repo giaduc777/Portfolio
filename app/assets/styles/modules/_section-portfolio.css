@@ -10,7 +10,8 @@
         text-align: center;
         font-size: 2rem;
         font-weight: 800;
-        
+        color: rgb(206, 4, 4);
+        font-family: 'PT Mono', monospace;
     }
 
     hr {
@@ -47,9 +48,11 @@
 
         p {
             position: relative;
-            top: -45px;
+            opacity: .85;
+            top: -36px;
             text-align: center;
             font-size: 1.8rem;
+            background-color: rgb(25, 33, 34);
         }
     }
 
@@ -113,6 +116,15 @@
             color: rgb(115, 250, 61);
         }
         &__20 {
+            color: rgb(223, 247, 84);
+        }
+        &__21 {
+            color: rgb(223, 247, 84);
+        }
+        &__22 {
+            color: rgb(223, 247, 84);
+        }
+        &__23 {
             color: rgb(223, 247, 84);
         }
     }

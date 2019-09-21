@@ -428,7 +428,7 @@ textarea {
 }
 
 body {
-    background-color: rgb(161, 221, 241);
+    background-color: rgb(203, 233, 243);
 }
 
 html {
@@ -802,6 +802,8 @@ html {
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
+  color: rgb(206, 4, 4);
+  font-family: 'PT Mono', monospace;
 }
 
 .section-portfolio hr {
@@ -839,9 +841,11 @@ html {
 
 .section-portfolio__container p {
   position: relative;
-  top: -45px;
+  opacity: .85;
+  top: -36px;
   text-align: center;
   font-size: 1.8rem;
+  background-color: rgb(25, 33, 34);
 }
 
 .section-portfolio__span__1 {
@@ -921,6 +925,18 @@ html {
 }
 
 .section-portfolio__span__20 {
+  color: rgb(223, 247, 84);
+}
+
+.section-portfolio__span__21 {
+  color: rgb(223, 247, 84);
+}
+
+.section-portfolio__span__22 {
+  color: rgb(223, 247, 84);
+}
+
+.section-portfolio__span__23 {
   color: rgb(223, 247, 84);
 }
 
