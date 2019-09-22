@@ -1,0 +1,21 @@
+.ending {
+   
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(184, 184, 151);
+    opacity: .5;
+
+    P {
+        
+        line-height: 4px;
+        opacity: .7;
+        word-spacing: .4rem;
+    }
+
+    &__thanks {
+        font-weight: bolder;
+        font-size: 1.2rem;
+        text-align: center;
+        color: red;
+    }
+}

@@ -4,17 +4,18 @@
 @import "base/_variables";
 
 @import "./modules/_header";
-@import "./modules/_image-frame";
+
 @import "./modules/_intro-animated-p1";
 @import "./modules/_intro-animated-p2";
-@import "./modules/_work-location";
-@import "./modules/_contacts-location";
+@import "./modules/_intro-animated-bart";
+
+
 @import "./modules/_section-intro";
 @import "./modules/_section-portfolio";
-@import "./modules/_background-image-2";
+
 @import "./modules/_footer";
 @import "./modules/_footer-text";
 @import "./modules/_footer-text-animated";
 
-
+@import "./modules/_ending";
 

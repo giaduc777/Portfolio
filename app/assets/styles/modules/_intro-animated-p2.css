@@ -88,11 +88,6 @@
     }
     48% {
         top: 30px;
-        font-size: 1.45rem;
-    }
-    100% {
-        top: 25px;
-        left: 0;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 }
