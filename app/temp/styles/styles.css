@@ -427,10 +427,17 @@ textarea {
     box-sizing: border-box;
 }
 
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
 html {
     scroll-behavior: smooth;
-  
-    
    
 }
 
@@ -439,7 +446,7 @@ html {
 .header {
     position: fixed;
     z-index: 20;
-    height: 8vh;
+    height: 10%;
     width: 100%;
     background-color: brown;
 }
@@ -710,7 +717,7 @@ html {
     
   
     width: 100%;
-    height: 107vh;
+    height: 25%;
     background-color: rgb(2, 15, 2);
 }
 
@@ -764,7 +771,7 @@ html {
     position: relative;
     padding-top: 5rem;
         width: 100%;
-        height: 230vh;
+        height: 25%;
         background-color: rgb(161, 226, 252);
     
     
@@ -791,7 +798,7 @@ html {
 
 .section-portfolio__container {
   width: 82%;
-  height: 36vh;
+  height: 5%;
   border: solid 1px rgb(24, 29, 25);
   margin-left: auto;
   margin-right: auto;
@@ -904,27 +911,26 @@ html {
 }
 
 .footer {
-    
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;
-    height: 14vh;
+    height: 15%;
     background-color: black;
 
 }
 
-.footer ul {
+.footer__grid {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  transform: translateY(1.5rem);
+  -ms-flex-pack: end;
+      justify-content: flex-end;
 }
 
-.footer ul li {
+.footer__grid li {
   list-style: none;
 }
 
-.footer ul li a {
-  font-size: 2.4rem;
+.footer__grid li a {
   color:white;
 }
 
@@ -1082,7 +1088,7 @@ html {
 .ending {
    
     width: 100%;
-    height: 30vh;
+    height: 25%;
     background-color: rgb(184, 184, 151);
     opacity: .5;
 }

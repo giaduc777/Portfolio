@@ -1,23 +1,24 @@
 .footer {
-    
+    display: flex;
     width: 100%;
-    height: 14vh;
+    height: 15%;
     background-color: black;
+     
    
    
-   
-     ul {
-        display: flex;
-        justify-content: space-around;
-        transform: translateY(1.5rem);
-        
+     &__grid {
+       display: flex;
+      justify-content: flex-end;
+     
+       
+       
         
 
         li {
             list-style: none;
 
             a {
-                font-size: 2.4rem;
+               
                 color:white;
             }
         }
