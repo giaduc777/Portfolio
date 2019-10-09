@@ -446,7 +446,7 @@ html {
 .header {
     position: fixed;
     z-index: 20;
-    height: 10%;
+    height: 8vh;
     width: 100%;
     background-color: brown;
 }
@@ -454,9 +454,11 @@ html {
 .header__navigation__ul {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  transform: translateY(1rem);
+  -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 8vh;
 }
 
 .header__navigation__ul li {
@@ -466,7 +468,7 @@ html {
 .header__navigation__ul li a {
   font-weight: bolder;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: white;
 }
 
@@ -713,11 +715,37 @@ html {
     }
 }
 
+.main {
+    width: 100%;
+    height: 85%;
+}
+
+.section-ending {
+   
+    width: 100%;
+    height: 20%;
+    background-color: rgb(184, 184, 151);
+    opacity: .5;
+}
+
+.section-ending P {
+  line-height: 4px;
+  opacity: .7;
+  word-spacing: .4rem;
+}
+
+.section-ending__thanks {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  text-align: center;
+  color: red;
+}
+
 .section-intro {
     
-  
+  position: relative;
     width: 100%;
-    height: 25%;
+    height: 30%;
     background-color: rgb(2, 15, 2);
 }
 
@@ -771,7 +799,7 @@ html {
     position: relative;
     padding-top: 5rem;
         width: 100%;
-        height: 25%;
+        height: 35%;
         background-color: rgb(161, 226, 252);
     
     
@@ -911,6 +939,7 @@ html {
 }
 
 .footer {
+    position: relative;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
@@ -922,8 +951,9 @@ html {
 .footer__grid {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+  -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+  width: 100%;
 }
 
 .footer__grid li {
@@ -931,6 +961,7 @@ html {
 }
 
 .footer__grid li a {
+  font-size: 2.4rem;
   color:white;
 }
 
@@ -1083,26 +1114,5 @@ html {
         
         font-size: .05rem;
     }
-}
-
-.ending {
-   
-    width: 100%;
-    height: 25%;
-    background-color: rgb(184, 184, 151);
-    opacity: .5;
-}
-
-.ending P {
-  line-height: 4px;
-  opacity: .7;
-  word-spacing: .4rem;
-}
-
-.ending__thanks {
-  font-weight: bolder;
-  font-size: 1.2rem;
-  text-align: center;
-  color: red;
 }
 
