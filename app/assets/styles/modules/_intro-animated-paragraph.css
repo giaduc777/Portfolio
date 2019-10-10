@@ -1,0 +1,50 @@
+@keyframes intro-animated-paragraph{
+    0% {
+       
+        opacity: 0;
+       
+       }
+   
+       10% {
+           
+         opacity: .1;
+       }
+       20%
+        {
+         opacity: ..15;
+        }
+   
+       30% {
+           
+         opacity: ..25;
+       }
+       40% {
+           
+         opacity: .45;
+       }
+       50% {
+           
+         opacity: .6;
+       }
+       60% {
+           
+         opacity: .7;
+       }
+       70% {
+           
+         opacity: .8;
+       }
+       80% {
+           
+         opacity: .9;
+       }
+       90% {
+           
+         opacity: .95;
+       }
+       100% {
+         color: white;
+         opacity: 1;
+       }
+     
+}

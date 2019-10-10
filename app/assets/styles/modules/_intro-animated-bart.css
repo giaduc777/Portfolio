@@ -1,49 +1,53 @@
 @keyframes intro-animated-bart {
+
+
     0% {
        
-      top: 8.5rem;
-    
+      transform: translateY(110px);
+      opacity: .1;
+   
     }
 
     10% {
-        
-        top: 8.3rem;
+        opacity: .2;
+        transform: translateY(98.6px);
     }
     20%
      {
-        top: 7.6rem;
+       opacity: .3;
+        transform: translateY(87.2px);
      }
 
     30% {
-        
-        top: 6.9rem;
+        transform: translateY(75.8px);
+       opacity: .4;
     }
     40% {
-        
-        top: 6rem;
+        transform: translateY(64.4px);
+        opacity: .5;
     }
     50% {
-        
-        top: 5.3rem;
+        transform: translateY(53px);
+        opacity: .6;
     }
     60% {
-        
-        top: 4.4rem;
+        transform: translateY(41.6px);
+        opacity: .7;
     }
     70% {
-        
-        top: 3.9rem;
+        transform: translateY(30.2px);
+        opacity: .8;
     }
     80% {
-        
-        top: 3.6rem;
+        transform: translateY(18.8px);
+        opacity: .9;
     }
     90% {
-        
-        top: 3.3rem;
+        transform: translateY(7.4px);
+        opacity: .95;
     }
     100% {
+        transform: translateY(-4px);
         
-        top: 3rem;
     }
 }

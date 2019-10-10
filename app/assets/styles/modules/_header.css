@@ -1,7 +1,6 @@
 .header {
     position: fixed;
-    z-index: 20;
-    height: 8vh;
+    z-index: 10;
     width: 100%;
     background-color: brown;
 
@@ -11,11 +10,14 @@
     &__navigation {
        
         &__ul {
-           display: flex;
+          display: flex;
           justify-content: space-evenly;
-         
           align-items: center;
-           height: 8vh;
+          height: 3.1rem;
+
+          @mixin atLarge {
+            height: 4rem;
+          }
       
             li {
                  
@@ -28,10 +30,6 @@
                     color: white;
                 }
             }
-        }
-        
-
-            
-        
+        } 
     }
 }

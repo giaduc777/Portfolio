@@ -90,10 +90,10 @@
 	    function ProjectLink() {
 	        _classCallCheck(this, ProjectLink);
 
-	        this.image1 = (0, _jquery2.default)(".image-frame--1");
-	        this.image2 = (0, _jquery2.default)(".image-frame--2");
-	        this.image3 = (0, _jquery2.default)(".image-frame--3");
-	        this.image4 = (0, _jquery2.default)(".image-frame--4");
+	        this.image1 = (0, _jquery2.default)("#mountain-travel");
+	        this.image2 = (0, _jquery2.default)("#product-landing-page");
+	        this.image3 = (0, _jquery2.default)("#tribute-page");
+	        this.image4 = (0, _jquery2.default)("#technical-documentation");
 	        this.work = (0, _jquery2.default)(".header__navigation__block__l2");
 	        this.events();
 	    }

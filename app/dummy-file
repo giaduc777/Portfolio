@@ -358,3 +358,120 @@
         top: -173px;
     }
 }
+
+
+////////////////////////////////////////////////////
+
+.section-intro {
+    
+  position: relative;
+    width: 100%;
+   
+    background-color: rgb(2, 15, 2);
+
+   
+        &__p {
+            font-family: 'Pacifico', cursive;
+            position: relative;
+            top: 13vh;
+            z-index: 10;
+
+            &__1 {
+                
+                 color: white;
+                 font-size: 2.1rem;
+                 text-align: center;
+                 font-weight: bold;
+                 transform: translateY(4rem);
+         
+             }
+         
+             &__2 {
+                 
+                 color: white;
+                 font-size: 1.4rem;
+                 text-align: center;
+                 font-weight: bold;
+                 transform: translateY(5rem);
+             }    
+        }
+       
+    
+
+    &__container {
+      
+        width: 100%; 
+        height: 100%;
+
+        &__bart {
+           position: relative;
+          top: 3.1rem;
+           width: 100%;
+          height: 370px;;
+            
+           animation-name: intro-animated-bart;
+            animation-duration: 10s;
+            animation-fill-mode: fowards;
+            animation-timing-function: linear;
+            
+           
+        }
+
+        &__welcome {
+         
+          
+           
+            width: 100%;
+          height: 370px;
+            
+        }
+    }
+}
+
+////////////////////////////////////////////////
+
+ <section class="section-intro">
+      
+          
+      <div class="section-intro__p">
+        <p class="section-intro__p__1">Hello, My name is Duc Le</p>
+        <p class="section-intro__p__2">Welcome to my portfolio page</p>
+      </div>
+   
+    
+    <div class="section-intro__container">
+      <div ><img class="section-intro__container__bart" src="./assets/images/bart-look-up-crop.jpg"></div>
+      <div><img class="section-intro__container__welcome" src="./assets/images/welcome-back3.jpg"></div>
+    </div>
+    
+
+
+</section>
+
+
+////////////////////////////////////////////////
+
+
+<section class="section-ending">
+      <p>
+          One of  HTML's  main jobs is to give text structure and meaning (also known as semantics) so that a browser can display i<span class="section-ending__thanks">Thanks for visting...</span>twords, creating lists, and more.The basics: Headings
+          Each heading has to be words, creating lists, and more.The basics: Headingswords, creating lists, and more.The basics: Headingswords, creating lists, and more.The basics: Headings
+          wrapped in a heading element: &lth1&gtI am the title of the story.&lth1&gt <span class="section-ending__thanks">for visting...</span>There are six heading elements — &lth1&gt,words, creating lists, and more.The basics: Headings 
+          <span class="section-ending__thanks">Thanks for visting...</span>&lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, and &lth6&gt. Each element represents a different level of content in the document; newspaper, a college Each heading has to be words,
+          &lth1&gt represents the<span class="section-ending__thanks">Thanks...</span> main heading, &lth2&gt represents subheadings, &lth3&gt represents sub-subheadings, and so on.Bye.. newspaper, a college Each heading has to be words,<span class="section-ending__thanks">Thanks for visting...</span>
+          correctly. This article explains the way HTML can be used to structure a page of text by adding headings and paragraphs, newspaper, a college Each heading has to be words,
+          emphasizing words, creating lists, and more.The basics: Headings and Paragraphs Most structured text consists of headings newspaper, a college Each heading has to be words,<span class="section-ending__thanks"> for visting...</span>
+          and paragraphs, whether you are reading a story, a newspaper, a college Each heading has to be words, creating lists,<span class="section-ending__thanks">Thanks for visting...</span> and more.The basics: Headings
+          wrapped in a heading elem<span class="section-ending__thanks">Thanks for visting...</span>ent: &lth1&gtI am the title of the story.&lth1&gt There are six heading elements — &lth1&gt,  basics: Headingswords, creating lists, and more.The basics: Heading
+          &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, <span class="section-ending__thanks">Thanks for visting...</span>and &lth6&gt. Each element represents a different level of content in the document;  page of text by adding headings and paragraphs, ne
+          &lth1&gt represents the main heading, &lth2&gt represents subheadings, &lth3&gt represents sub-subheadings, and so on.Bye.. page of text by adding headings and paragraphs, ne
+          Each heading has to be Each heading has to be newspaper, a college Each heading has to be words,<span class="section-ending__thanks">Thanks for visting...</span><span class="section-ending__thanks">Thanks for visting...</span>
+          wrapped in a heading element: &lth1&gtI am the title of the story.&lth1&gt There are six heading elements — &lth1&gt,  page of text by adding headings and paragraphs, ne
+          &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, and &lth6&gt. Each element represents a different level of content in the document;  page of text by adding headings and paragraphs, ne
+          &lth1&gt represents the main heading, &lth2&gt represents subheadings, &lth3&gt represents sub-subheadings, and so on.Bye.. page of text by adding headings and paragraphs, ne
+          wrapped in a heading element: &lth1&gtI am the title of the story<span class="section-ending__thanks"></span>.&lth1&gt There are six heading elements — &lth1&gt,  basics: Headingswords, creating lists, and more.The basics: Heading
+          &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, and &lth6&gt. Each element represents a different level of content in the document;  page of text by adding headings and paragraphs, ne
+          &lth1&gt represents the main heading, &lth2&gt represents subheadings, &lth3&gt represents sub-subheadings, and so on.Bye.. textbook, a magazine, etc. Structured content makes
+          the reading experience easier and more enjoyable.In HTML, each paragraph has to be wrapped in a &ltp&gt element, like so: basics: Headingswords, creating lists, and more.The basics: Heading
+      </p>
+  </section>

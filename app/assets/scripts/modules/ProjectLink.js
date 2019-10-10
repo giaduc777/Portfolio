@@ -2,10 +2,10 @@ import $ from 'jquery';
 
 class ProjectLink {
     constructor(){
-        this.image1 = $(".image-frame--1");
-        this.image2 = $(".image-frame--2");
-        this.image3 = $(".image-frame--3");
-        this.image4 = $(".image-frame--4");
+        this.image1 = $("#mountain-travel");
+        this.image2 = $("#product-landing-page");
+        this.image3 = $("#tribute-page");
+        this.image4 = $("#technical-documentation");
         this.work = $(".header__navigation__block__l2");
         this.events();
     }
