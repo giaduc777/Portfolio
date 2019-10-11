@@ -16,7 +16,11 @@
    }
 
    @mixin atLarger {
-    
+    height: 570px;
+  }
+
+   @mixin atLargest {
+     height: 650px;
    }
    
    
@@ -46,6 +50,17 @@
       @mixin atLarge {
         font-size: 1.8rem;
         line-height: 42px;
+        transform: translateY(30px);
+      }
+
+      @mixin atLarger {
+        font-size: 2rem;
+        transform: translateY(35px);
+      }
+
+      @mixin atLargest {
+        font-size: 2.4rem;
+        transform: translateY(50px);
       }
     }
       
@@ -62,6 +77,11 @@
           animation-name: intro-animated-bart-2;
         }
 
+        @mixin atLarger {
+          animation-name: intro-animated-bart-3;
+        }
+
+
         img {
           width: 100%;
           height: 210px;
@@ -77,6 +97,14 @@
           @mixin atLarge {
             height: 470px;
           }
+
+          @mixin atLarger {
+            height: 570px;
+          }
+
+          @mixin atLargest {
+            height: 690px;
+        }
        
         }
     }
