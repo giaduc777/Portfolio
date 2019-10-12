@@ -44,11 +44,6 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-	/*
-	import "../../temp/scripts/modernizr";
-	import 'picturefill';
-	import 'lazysizes';
-	*/
 	"use strict";
 
 /***/ })
